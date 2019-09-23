@@ -1,0 +1,1 @@
+/*Standard CSS for index.html, portfolio.html and contact.html*/

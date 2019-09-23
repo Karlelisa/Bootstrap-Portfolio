@@ -1,0 +1,30 @@
+
+h1 {
+   ;
+}
+
+
+
+.figure-caption {
+
+}
+
+
+.boxed {
+    border: 1px solid teal;
+    width: 960px;
+}
+
+
+body { 
+    background-image: url("../Images/sparkling-lights-tan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500%;
+
+}
+
+
+.nav-link {
+    color: black;
+}
