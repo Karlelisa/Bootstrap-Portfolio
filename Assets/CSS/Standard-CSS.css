@@ -1,2 +1,74 @@
 /*Standard CSS for index.html, portfolio.html and contact.html*/
 
+/*Navigation Bar*/
+.navbar-brand {
+    color: white;
+    padding: 30px; 
+    border: 1px solid rgb(243, 163, 176); 
+    background-color:  rgb(243, 163, 176);  
+    text-align: center;
+    ;
+}
+
+
+
+/*Navigation Bar Hover*/
+/*I used the following website to know how to change the hover border from a square to a circle: 
+https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/8*/
+.nav-item:hover {
+    background-color: lightpink;
+    border-radius: 50%; 
+}
+
+.nav-item {
+    float:left;
+    
+}
+
+.nav-link {
+    color: rgb(105, 103, 103);
+
+}
+
+/*Background Image*/
+body { 
+    background-image: url("../Images/sparkling-lights-tan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500%;
+}
+
+/*For all h1 tags*/
+h1 {
+    color: white;
+}
+
+/*For all h2 tags*/
+h2 {
+    color: rgb(211, 92, 112);
+
+}
+
+/*For all p tags*/
+p {
+    font-family:'Reem Kufi', sans-serif;
+    line-height: normal;
+    font-size: larger;
+    
+}
+
+
+/* The Footer*/
+.fixed-bottom {
+    background-color: lightpink;
+    text-align: center;
+}
+
+
+/*https://www.w3schools.com/howto/howto_css_responsive_form.asp*/
+@media screen and (max-width: 600px) {
+    .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

@@ -13,62 +13,49 @@
     <link rel="stylesheet" href="Assets/CSS/CSS-Reset.css">
 
     <link rel="stylesheet" href="Assets/CSS/Portfolio-CSS.css">
+
+    <link rel="stylesheet" href="Assets/CSS/Standard-CSS.css">
+
 </head>
 
 <body>
 
+
     <!--https://getbootstrap.com/docs/4.3/components/navbar/-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"
-            style="padding: 30px; border: 1px solid rgb(243, 163, 176); background-color:  rgb(243, 163, 176); color: white; text-align: center">
+        <a class="navbar-brand" href="#">
             <h1 class="h1">Karlelisa Wesley</h1>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <br>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <div class="nav nav-pills flex-column flex-sm-row">
+            <ul class="flex-sm-fill text-sm-center nav-link">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html" target="_blank">
+                    <a class="nav-link" href="index.html">
                         <h5 class="h5">About</h5>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html" target="_blank">
+                    <a class="nav-link" href="portfolio.html">
                         <h5 class="h5">Portfolio</h5>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html" target="_blank">
+                    <a class="nav-link" href="contact.html">
                         <h5 class="h5">Contact</h5>
                     </a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-
-            </form>
         </div>
     </nav>
 
 
-
-
-
-
-
-
-
-
+    <br>
 
     <div class="row">
-
         <div class="col-md-3">
             <p></p>
         </div>
         <!--https://getbootstrap.com/docs/4.3/components/card/#background-and-color-->
-        <div class="col-lg-6" style="padding-top: 40px" style=" padding-bottom: 80px">
+        <div class="col-lg-6" class="portfolio-card">
             <div class="card">
                 <div class="card-body">
                     <!--https://getbootstrap.com/docs/4.3/content/typography/-->
@@ -81,72 +68,78 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body" id="image-body">
+                                    <!--I found this image on https://www.fanatical.com/en/game/hyperdimension-neptunia-u-action-unleashed-->
                                     <img src="./Assets/Images/Action-Unleashed-Game.jpg" class="img-fluid"
                                         alt="Responsive image">
+                                    <!--I found the below class="btn btn-colour-1 code on https://bootstrapious.com/p/bootstrap-tips-and-tricks*-->
                                     <a href="https://www.fanatical.com/en/game/hyperdimension-neptunia-u-action-unleashed"
-                                        target="_blank" class="btn btn-light">Click Here To Play</a>
+                                        target="_blank" class="btn btn-colour-1">Click Here To Play</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body" id="image-body">
+                                    <!--I found this image on https://gamerdan.com/blog/top-10-mobile-games-gacha-hero-collectors-rpgs/-->
                                     <img src="./Assets/Images/King's-Raid-Game.jpg" class="img-fluid"
                                         alt="Responsive image">
-                                    <a href="https://youtu.be/brxDD5u8apU" target="_blank" class="btn btn-light">Click
+                                    <a href="https://youtu.be/brxDD5u8apU" target="_blank"
+                                        class="btn btn-colour-1">Click
                                         Here To Play</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body" id="image-body">
+                                    <!--I found this image on https://www.fanatical.com/en/game/moero-chronicle-->
                                     <img src="./Assets/Images/Moero-Game.jpg" class="img-fluid" alt="Responsive image">
                                     <a href="https://www.fanatical.com/en/game/moero-chronicle" target="_blank"
-                                        class="btn btn-light">Click Here To Play</a>
+                                        class="btn btn-colour-1">Click Here To Play</a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <br>
 
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body" id="image-body">
+                                    <!--I found this image on https://www.fanatical.com/en/game/cyberdimension-neptunia-4-goddesses-online-->
                                     <img src="./Assets/Images/GoddessesOnlineGame.jpeg" class="img-fluid"
                                         alt="Responsive image">
                                     <a href="https://www.fanatical.com/en/game/cyberdimension-neptunia-4-goddesses-online"
-                                        target="_blank" class="btn btn-light">Click Here To Play</a>
+                                        target="_blank" class="btn btn-colour-1">Click Here To Play</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="card">
-                                <div class="card-body">
-                                    <img src="./Assets/Images/Aura-Kingdom-R-feature-image.jpg" class="img-fluid"
-                                        alt="Responsive image">
-                                    <a href="https://youtu.be/2iP7bKuTes4" target="_blank" class="btn btn-light">Click
+                                <div class="card-body" id="image-body">
+                                    <!--I found this image on https://www.gamerbraves.com/aura-kingdom-r-another-mmorpg-for-the-mobile-based-on-the-pc-version/-->
+                                    <img id="aura-image" src="./Assets/Images/Aura-Kingdom-R-feature-image.jpg"
+                                        class="img-fluid" alt="Responsive image">
+                                    <a href="https://youtu.be/2iP7bKuTes4" target="_blank"
+                                        class="btn btn-colour-1">Click
                                         Here To Play</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body" id="image-body">
+                                    <!--I found this image on https://www.fanatical.com/en/game/amnesia-memories-->
                                     <img src="./Assets/Images/Amnesia-Game.jpg" class="img-fluid"
                                         alt="Responsive image">
                                     <a href="https://www.fanatical.com/en/game/amnesia-memories" target="_blank"
-                                        class="btn btn-light">Click Here To Play</a>
+                                        class="btn btn-colour-1">Click Here To Play</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
-
-
 
                 </div>
 
@@ -171,7 +164,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <!--https://getbootstrap.com/docs/4.3/components/card/-->
-                <div class="card-footer" style="background-color: lightpink">
+                <div class="card-footer">
                     <small class="text-muted">Copyright©</small>
                 </div>
 

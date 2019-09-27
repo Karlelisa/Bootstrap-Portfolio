@@ -1,13 +1,4 @@
-
-h1 {
-   ;
-}
-
-
-
-.figure-caption {
-
-}
+/*Portfolio CSS*/
 
 
 .boxed {
@@ -16,15 +7,61 @@ h1 {
 }
 
 
-body { 
-    background-image: url("../Images/sparkling-lights-tan.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500%;
+.nav-link {
+    color: black;
+}
+
+
+.portfolio-card { 
+    padding-top: 40px; 
+    padding-bottom: 80px;
 
 }
 
 
-.nav-link {
-    color: black;
+
+#image-body {
+    padding: 1px;
+    
+}
+
+#aura-image {
+    height: 125px;
+}
+
+
+/*I found the below code and learned how to change the color of my image buttons on this site:
+ https://bootstrapious.com/p/bootstrap-tips-and-tricks*/
+.btn-colour-1 {
+  color: white;
+  background-color:  rgb(173, 158, 160);
+  border-color: lightpink;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  border-radius: 0; 
+  padding-left: 39px;
+  padding-right: 39px;
+}
+
+
+.btn-colour-1:hover,
+.btn-colour-1:active,
+.btn-colour-1:focus,
+.btn-colour-1.active {
+    background:  rgb(231, 219, 221);
+    color: rgb(231, 89, 113);
+    border-color: rgb(112, 120, 228);
+}
+
+
+
+@media screen and (max-width: 998px) {
+
+    #aura-image {
+        height:auto;
+    }
+
+    .btn-colour-1 {
+        padding: auto;
+    }
 }

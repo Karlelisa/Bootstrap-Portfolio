@@ -1,25 +1,24 @@
-.karlelisa {
-    margin-right: 20px;
-    border: 2px thick black;
-}
-
-
-
-.fixed-bottom {
-    
-    text-align: center;
-}
-
-body {
-    background-image: url("../Images/sparkling-lights-tan.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-
-}
+/*My About Page CSS*/
 
 
 .card {
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+
+.AboutMe {
+    padding-top: 40px;
+}
+
+
+.karlelisa {
+    margin-right: 20px;
+
+}
+
+
     
 p {
     line-height: 10px;

@@ -14,42 +14,36 @@
 
     <link rel="stylesheet" href="Assets/CSS/Contact-CSS.css">
 
+    <link rel="stylesheet" href="Assets/CSS/Standard-CSS.css">
+
 </head>
 
 <body>
 
+
     <!--https://getbootstrap.com/docs/4.3/components/navbar/-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"
-            style="padding: 30px; border: 1px solid rgb(243, 163, 176); background-color:  rgb(243, 163, 176); color: white; text-align: center">
+        <a class="navbar-brand" href="#">
             <h1 class="h1">Karlelisa Wesley</h1>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <br>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <div class="nav nav-pills flex-column flex-sm-row">
+            <ul class="flex-sm-fill text-sm-center nav-link">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html" target="blank">
+                    <a class="nav-link" href="index.html">
                         <h5 class="h5">About</h5>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html" target="blank">
+                    <a class="nav-link" href="portfolio.html">
                         <h5 class="h5">Portfolio</h5>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html" target="blank">
+                    <a class="nav-link" href="contact.html">
                         <h5 class="h5">Contact</h5>
                     </a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-
-            </form>
         </div>
     </nav>
 
@@ -58,50 +52,63 @@
 
 
 
-    <!--https://www.w3schools.com/howto/howto_css_responsive_form.asp-->
-
-    <div class="contact-form">
-        <form action="action_page.php">
-            <div class="form-row">
-                <div class="col-md-6" style="padding-top: 40px">
-
-                    <!--https://getbootstrap.com/docs/4.3/content/typography/-->
-                    <h2 class="h2">Contact</h2>
-                </div>
-            </div>
-
-            <hr>
+    <!--https://www.w3schools.com/howto/howto_css_responsive_form.asp  and https://getbootstrap.com/docs/4.3/components/forms/-->
 
 
-            <div class="row">
-                <div class="col-75">
-                    <label for="fname">Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                </div>
-            </div>
+    <div class="row">
 
-            <div class="row">
-                <div class="col-75">
-                    <label for="lname">Email</label>
-                    <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-75">
-                    <label for="subject">Message</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.."
-                        style="height:200px"></textarea>
+        <div class="contact-form">
+            <form action="action_page.php">
+                <div class="form-row">
+                    <div class="col-md-12">
+
+                        <!--https://getbootstrap.com/docs/4.3/content/typography/-->
+                        <h2 class="h2">Contact</h2>
+                    </div>
                 </div>
 
-            </div>
-            <div class="row">
-                <button type="submit" class="btn btn-danger">Submit</button>
-            </div>
-        </form>
+                <hr>
+
+                <div class="row">
+                    <div class="col-75">
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-75">
+                        <label for="lname">Email</label>
+                        <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-75">
+                        <label for="subject">Message</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                </div>
+            </form>
+
+        </div>
+
+
 
     </div>
+
+
+
+
     </div>
+
+
 
 
 
@@ -110,19 +117,13 @@
         <div class="row">
             <div class="col-sm-12">
                 <!--https://getbootstrap.com/docs/4.3/components/card/-->
-                <div class="card-footer" style="background-color: lightpink">
+                <div class="card-footer">
                     <small class="text-muted">Copyright©</small>
                 </div>
 
             </div>
         </div>
     </div>
-
-
-
-
-
-
 
 
 
