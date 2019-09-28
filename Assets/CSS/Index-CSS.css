@@ -1,31 +1,28 @@
 /*My About Page CSS*/
 
-
+/*Adding elements to the card so that the content within it is aligned proper*/
 .card {
     display: inline-block;
     margin-bottom: 20px;
 
 }
 
-
+/*Added top padding to the col-md-6 card About Me section so that there is some space between this secton and the navbar*/
 .AboutMe {
     padding-top: 40px;
 }
 
-
+/*This is to add some space inbetween to the right side of my picture and the paragraphs*/
 .karlelisa {
     margin-right: 20px;
 
 }
 
 
-    
+ /* Spacing out the line height within my paragraphs*/   
 p {
     line-height: 10px;
     
 }
 
 
-.image-fluid {
-    height: 5px;
-}

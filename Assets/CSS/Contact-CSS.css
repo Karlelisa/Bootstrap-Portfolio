@@ -1,7 +1,8 @@
-/*This CSS is from https://www.w3schools.com/howto/howto_css_responsive_form.asp*/
+/*This CSS is from https://www.w3schools.com/howto/howto_css_responsive_form.asp. 
+This is to style the labels, textareas, the button of the contact form and style th outline of the contact form*/
 
 /* Style inputs, select elements and textareas */
-input[type=text], select, textarea{
+input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -10,13 +11,13 @@ input[type=text], select, textarea{
     resize: vertical;
   }
   
-  /* Style the label to display next to the inputs */
+  /* This styles the Name, Email and Message labels */
   label {
     padding: 12px 12px 12px 12px;
     display: inline-block;
   }
   
-  /* Style the submit button */
+  /* This styles the submit button*/
   button[type=submit] {
     padding: 12px 20px;
     margin-left: 20px;
@@ -26,7 +27,7 @@ input[type=text], select, textarea{
     float: right;
   }
   
-  /* Style the container */
+  /* This styles the contact form */
   .contact-form {
     border: 1px solid  #ccc;
     border-radius: 5px;
@@ -41,9 +42,8 @@ input[type=text], select, textarea{
     
 }
   
- 
-  
-  /* Floating column for inputs: 75% width */
+
+  /* This floats the columnns left and provides other elements*/
   .col-75 {
     float: left;
     width: 90%;
@@ -51,17 +51,16 @@ input[type=text], select, textarea{
     padding-left: 20px;
   }
   
-  /* Clear floats after the columns */
+  /* This clears the floats after the columns*/
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
+
+  /*This increases the height of the message textarea*/
+  #message {
+    height: 200px;
   }
+  
+  

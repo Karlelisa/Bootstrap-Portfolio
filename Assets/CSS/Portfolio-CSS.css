@@ -1,17 +1,7 @@
 /*Portfolio CSS*/
 
-
-.boxed {
-    border: 1px solid teal;
-    width: 960px;
-}
-
-
-.nav-link {
-    color: black;
-}
-
-
+/*Adding padding to the card that holds my portfolio content. The padding-top adds space between this section and the navbar. 
+The padding-bottom adds more padding at the bottom of the card*/
 .portfolio-card { 
     padding-top: 40px; 
     padding-bottom: 80px;
@@ -19,12 +9,13 @@
 }
 
 
-
+/*This padding adds some space between the cards of my portfolio images*/
 #image-body {
     padding: 1px;
     
 }
 
+/*Increasing the height to the Aura Kingdom game image which is the second image of second row of the columns with class ="col-sm-4"*/
 #aura-image {
     height: 125px;
 }
@@ -55,6 +46,8 @@
 
 
 
+/*The Aura Kingdom game image and the buttoms decrease in size at and below a screen with of 998px. 
+So I set this media query to adjust the image and bottons so they are the same size as the screen decreases*/
 @media screen and (max-width: 998px) {
 
     #aura-image {
@@ -62,6 +55,6 @@
     }
 
     .btn-colour-1 {
-        padding: auto;
+       padding-right:auto;
     }
 }

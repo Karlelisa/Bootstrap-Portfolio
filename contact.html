@@ -49,15 +49,8 @@
 
     <br>
 
-
-
-
-    <!--https://www.w3schools.com/howto/howto_css_responsive_form.asp  and https://getbootstrap.com/docs/4.3/components/forms/-->
-
-
+    <!--https://www.w3schools.com/howto/howto_css_responsive_form.asp and https://getbootstrap.com/docs/4.3/components/forms/-->
     <div class="row">
-
-
         <div class="contact-form">
             <form action="action_page.php">
                 <div class="form-row">
@@ -69,29 +62,29 @@
                 </div>
 
                 <hr>
-
+                <!-- The below code is from https://www.w3schools.com/howto/howto_css_responsive_form.asp. 
+                 I changed full name to name, last name to email and subject to message-->
                 <div class="row">
                     <div class="col-75">
-                        <label for="fname">Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name..">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-75">
-                        <label for="lname">Email</label>
-                        <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="example@gmail.com">
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-75">
-                        <label for="subject">Message</label>
-                        <textarea id="subject" name="subject" placeholder="Write something.."
-                            style="height:200px"></textarea>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write something.."></textarea>
                     </div>
-
                 </div>
+
                 <div class="row">
                     <button type="submit" class="btn btn-danger">Submit</button>
                 </div>
@@ -99,32 +92,22 @@
 
         </div>
 
-
-
     </div>
-
-
-
-
-    </div>
-
-
-
 
 
     <!--https://getbootstrap.com/docs/4.3/utilities/position/-->
     <div class="fixed-bottom">
-        <div class="row">
-            <div class="col-sm-12">
-                <!--https://getbootstrap.com/docs/4.3/components/card/-->
-                <div class="card-footer">
-                    <small class="text-muted">Copyright©</small>
+        <div class="sticky-bottom">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!--https://getbootstrap.com/docs/4.3/components/card/-->
+                    <div class="card-footer">
+                        <small class="text-muted">Copyright©</small>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
-
 
 
 </body>
